@@ -21,16 +21,16 @@
 
 
 module RCA(
-        input [0:3] A,
-        input [0:3] B,
+        input [3:0] A,
+        input [3:0] B,
         output Cout,
-        output [0:3] S
+        output [3:0] S
     );
     
-    wire C0,C1,C2;
-    halfadder h1(A[0], B[0], S[0], C0);
-    reducedFullAdder f1(A[1],B[1],C0, S[1], C1);
-    reducedFullAdder f2(A[2],B[2],C1, S[2], C2);
-    reducedFullAdder f3(A[3],B[3],C2, S[3], Cout);
+    wire [2:0] C;
+    halfadder h1(A[0], B[0], S[0], C[0]);
+    reducedFullAdder f1(A[1],B[1],C[0], S[1], C[1]);
+    reducedFullAdder f2(A[2],B[2],C[1], S[2], C[2]);
+    reducedFullAdder f3(A[3],B[3],C[2], S[3], Cout);
     
 endmodule
