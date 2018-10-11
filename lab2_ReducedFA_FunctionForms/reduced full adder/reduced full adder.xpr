@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="C:/Users/luisg/Desktop/Fall 2018/CPE 133/Labs/lab2/reduced full adder/reduced full adder.xpr">
+<Project Version="7" Minor="38" Path="C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab2_ReducedFA_FunctionForms/reduced full adder/reduced full adder.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="30b2bead080c458e9d349b2d6aea3b25"/>
@@ -32,7 +32,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="3"/>
+    <Option Name="WTXSimLaunchSim" Val="4"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>

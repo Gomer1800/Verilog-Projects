@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1'
+HD_PWD='C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

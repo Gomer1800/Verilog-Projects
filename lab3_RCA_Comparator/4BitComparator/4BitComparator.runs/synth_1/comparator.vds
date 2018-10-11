@@ -2,12 +2,12 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Oct  9 17:38:06 2018
-# Process ID: 23144
-# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1
+# Start of session at: Wed Oct 10 17:56:00 2018
+# Process ID: 29072
+# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1
 # Command line: vivado.exe -log comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparator.tcl
-# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1/comparator.vds
-# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1\vivado.jou
+# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1/comparator.vds
+# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source comparator.tcl -notrace
 Command: synth_design -top comparator -part xc7a35tcpg236-1
@@ -15,14 +15,14 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 20236 
+INFO: Helper process launched with PID 29112 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 361.824 ; gain = 99.324
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 357.844 ; gain = 99.680
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'comparator' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'comparator' (1#1) [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'comparator' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'comparator' (1#1) [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 416.668 ; gain = 154.168
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.273 ; gain = 154.109
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -35,47 +35,47 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 416.668 ; gain = 154.168
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.273 ; gain = 154.109
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 416.668 ; gain = 154.168
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.273 ; gain = 154.109
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4bComparator.xdc]
-Finished Parsing XDC File [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4bComparator.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4bComparator.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/comparator_propImpl.xdc].
+Parsing XDC File [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4bComparator.xdc]
+Finished Parsing XDC File [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4bComparator.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4bComparator.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/comparator_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/comparator_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 691.375 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 687.465 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 691.375 ; gain = 428.875
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 687.465 ; gain = 429.301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 691.375 ; gain = 428.875
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 687.465 ; gain = 429.301
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 691.375 ; gain = 428.875
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 687.465 ; gain = 429.301
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-327] inferring latch for variable 'eq_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:36]
-WARNING: [Synth 8-327] inferring latch for variable 'lt_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:37]
-WARNING: [Synth 8-327] inferring latch for variable 'gt_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:38]
+WARNING: [Synth 8-327] inferring latch for variable 'eq_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'lt_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'gt_reg' [C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.srcs/sources_1/new/comparator.v:38]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 691.375 ; gain = 428.875
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 687.465 ; gain = 429.301
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -117,7 +117,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 691.375 ; gain = 428.875
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 687.465 ; gain = 429.301
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -129,13 +129,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 735.727 ; gain = 473.227
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 731.328 ; gain = 473.164
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 735.727 ; gain = 473.227
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 731.328 ; gain = 473.164
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -147,7 +147,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 735.801 ; gain = 473.301
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 731.477 ; gain = 473.313
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -171,7 +171,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -184,7 +184,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -196,25 +196,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -246,11 +246,11 @@ Report Instance Areas:
 |1     |top      |       |    22|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.930 ; gain = 474.430
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 736.938 ; gain = 199.730
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 736.938 ; gain = 474.438
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 732.605 ; gain = 199.250
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 732.605 ; gain = 474.441
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -264,9 +264,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 14 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 755.063 ; gain = 505.391
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 750.598 ; gain = 505.262
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1/comparator.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1/comparator.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file comparator_utilization_synth.rpt -pb comparator_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 755.063 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Oct  9 17:38:33 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 750.598 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 10 17:56:29 2018...

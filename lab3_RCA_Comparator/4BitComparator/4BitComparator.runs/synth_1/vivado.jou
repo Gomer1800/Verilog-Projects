@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Oct  9 17:38:06 2018
-# Process ID: 23144
-# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1
+# Start of session at: Wed Oct 10 17:56:00 2018
+# Process ID: 29072
+# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1
 # Command line: vivado.exe -log comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparator.tcl
-# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1/comparator.vds
-# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_/4BitComparator/4BitComparator.runs/synth_1\vivado.jou
+# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1/comparator.vds
+# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab3_RCA_Comparator/4BitComparator/4BitComparator.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source comparator.tcl -notrace
