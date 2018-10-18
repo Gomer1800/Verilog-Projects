@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct 17 23:41:03 2018
+# Process ID: 13204
+# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab4_decoder/exp7 BCD to 7-Segment Decoder/exp7 BCD to 7-Segment Decoder.runs/impl_1
+# Command line: vivado.exe -log bcd7segment.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bcd7segment.tcl -notrace
+# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab4_decoder/exp7 BCD to 7-Segment Decoder/exp7 BCD to 7-Segment Decoder.runs/impl_1/bcd7segment.vdi
+# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab4_decoder/exp7 BCD to 7-Segment Decoder/exp7 BCD to 7-Segment Decoder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source bcd7segment.tcl -notrace

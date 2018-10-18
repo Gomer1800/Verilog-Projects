@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1539834472">
+  <File Type="BITSTR-BMM" Name="exp6_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="exp6_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="exp6_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="exp6_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="exp6.tcl"/>
+  <File Type="OPT-TIMING" Name="exp6_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="exp6_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="exp6_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="exp6_reports.tcl"/>
+  <File Type="OPT-DRC" Name="exp6_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="exp6.hwdef"/>
+  <File Type="PWROPT-DCP" Name="exp6_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="exp6_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="exp6_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="exp6_placed.dcp"/>
+  <File Type="PLACE-IO" Name="exp6_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="exp6_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="exp6_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="exp6_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="exp6_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="exp6_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="exp6_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="exp6.bgn"/>
+  <File Type="PLACE-TIMING" Name="exp6_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="exp6_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="exp6.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="exp6_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="exp6_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="exp6_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="exp6.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="exp6_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="exp6_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="exp6_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="exp6_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="exp6_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="exp6_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="exp6.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="exp6_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="exp6.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="exp6_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="exp6_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="exp6.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="exp6_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="exp6_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="exp6_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="exp6_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="exp6_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="exp6_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="exp6_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="exp6_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="exp6_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="exp6_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="exp6_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="exp6_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="exp6_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="exp6_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="exp6_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="exp6_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="exp6_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="exp6_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="exp6_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="exp6.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="exp6_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="exp6.rbt"/>
+  <File Type="BITSTR-NKY" Name="exp6.nky"/>
+  <File Type="BG-DRC" Name="exp6.drc"/>
+  <File Type="RDI-RDI" Name="exp6.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/exp6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="exp6"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../exp6.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -21,22 +21,34 @@
 
 
 module decoder(
-    input [3:0] A,
-    output [6:0] seg
+    //input dp, digit,
+    input [3:0] SW,
+    //output D, DG,
+    output [6:0] C
     );
-     
+    
+    /*reg DP, DIGIT;
+    
+    always @ (dp,digit)
     begin
-        assign seg = 
-        ((A==0) ? 7'b1000000 :
-        ((A==1) ? 7'b1111001 :
-        ((A==2) ? 7'b0100100 :
-        ((A==3) ? 7'b0110000 :
-        ((A==4) ? 7'b0011001 :
-        ((A==5) ? 7'b0010010 :
-        ((A==6) ? 7'b0000010 :
-        ((A==7) ? 7'b1111000 :
-        ((A==8) ? 7'b0000000 :
-        ((A==9) ? 7'b0011000 : 7'b1111111
+        DP = (dp == 1) ? 1'b0 : 1'b1;
+        DIGIT = (digit == 1) ? 1'b0 : 1'b1;
+    end
+    assign D = DP;
+    assign DG = DIGIT;*/
+    
+    begin
+        assign C = 
+        ((SW==0) ? 7'b1000000 :
+        ((SW==1) ? 7'b1111001 :
+        ((SW==2) ? 7'b0100100 :
+        ((SW==3) ? 7'b0110000 :
+        ((SW==4) ? 7'b0011001 :
+        ((SW==5) ? 7'b0010010 :
+        ((SW==6) ? 7'b0000010 :
+        ((SW==7) ? 7'b1111000 :
+        ((SW==8) ? 7'b0000000 :
+        ((SW==9) ? 7'b0011000 : 7'b1111111
         )))))))))) ;
         end
 endmodule
