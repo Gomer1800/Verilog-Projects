@@ -21,43 +21,76 @@
 
 
 module exp10(
+    input clock_100Mhz,
+    input reset,
+    
     input [3:0] SWA, // A
     input [3:0] SWB, // B
-    output D,        // radix
-    output [3:0]DG, // digit toggle
-    output [6:0] seg // 7-seg display
+    input BUTTON,    // button 0
+    output RADIX,        // toggles radix
+    output [3:0]DIGITS,  // toggles 4-digit display
+    output [6:0] DISPLAY // toggles 7-seg display
     );
     
     wire EQ,LT,GT;
-    reg [3:0] RESULT;
-    reg dgToggle ; 
+    wire button = BUTTON;
+    wire LEDcounter;
+
+    reg [19:0] refreshCounter;
+    reg [6:0] display;
+    wire [6:0] displayOutputA;
+    wire [6:0] displayOutputB;
+    reg radix;
+    reg [3:0] digits; // MSB is the radix toggle, others toggle digit display
     
-    comparator comp( SWA, SWB, EQ, LT, GT);
+    comparator comp( SWA, SWB, EQ, LT, GT);    
+    exp6 displayB( SWB, displayOutputB);
+    exp6 displayA( SWA, displayOutputA);
     
-    always @ (SWA, SWB) begin
-        dgToggle = 
-        (EQ == 1) ? 1'b0 : 1'b1;
-        RESULT = 
-        ((EQ == 1) ? 4'b0000 : 
-        ((EQ == 0 && GT == 1) ? SWA :
-        ((EQ == 0 && GT == 0) ? SWB : 4'b0000)
-        ));        
+always @(posedge clock_100Mhz or posedge reset)
+    begin 
+     if(reset == 1)
+      refreshCounter <= 0;
+     else
+      refreshCounter <= refreshCounter + 1;
+    end 
+    assign LEDcounter = refreshCounter[19:18];
+    
+always @ (SWA, SWB, button, LEDcounter) begin
+    case (LEDcounter)
+    1'b0: begin // A cycle
+        radix = 
+        (reset & button) ? 1'b1 : 1'b0;
+        digits = 
+        ((reset == 0 & button == 0 & EQ == 1) ? 4'b1011 :
+        ((reset == 0 & button == 0 & EQ == 0 & GT == 1) ? 4'b0111 :
+        4'b1111));
+        display =
+        ((reset == 0 & button == 0 & EQ == 1) ? displayOutputA :
+        ((reset == 0 & button == 0 & EQ == 0 & GT == 1) ? displayOutputA :
+        7'b1111111));
+        end
+    1'b1: begin // B cycle
+        radix = 
+        (reset & button) ? 1'b1 : 1'b0;
+        digits = 
+        ((reset == 0 & button == 0 & EQ == 1) ? 4'b1101 :
+        ((reset == 0 & button == 0 & EQ == 0 & LT == 1) ? 4'b1110 :
+        4'b1111));
+        display =
+        ((reset == 0 & button == 0 & EQ == 1) ? displayOutputB :
+        ((reset == 0 & button == 0 & EQ == 0 & LT == 1) ? displayOutputB :
+        7'b1111111));    
+        end
+    default: begin
+        radix = 1'b1;
+        digits = 4'b1111;
+        display = 7'b1111111;
+        end
+    endcase
     end
     
-    exp6 display( RESULT, dgToggle, D, DG, seg);
-    
-/*module exp6(
-    input [3:0] SW,
-    output D, 
-    output [2:0] DG,
-    output [6:0] C
-    );*/
-        
-/*module comparator(
-        input [3:0] A,
-        input [3:0] B,
-        output EQ,
-        output LT,
-        output GT
-        );*/
+    assign RADIX = radix;
+    assign DIGITS= digits;
+    assign DISPLAY = display;
 endmodule

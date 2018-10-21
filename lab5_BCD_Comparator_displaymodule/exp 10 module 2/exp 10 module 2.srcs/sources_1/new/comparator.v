@@ -21,8 +21,10 @@
 
 
 module comparator(
-    input [3:0] A,
+    // two 4-bit inputs
+    input [3:0] A, 
     input [3:0] B,
+    // three 1-bit outputs
     output EQ,
     output LT,
     output GT
@@ -32,17 +34,17 @@ module comparator(
     
     always @ (A,B)
     begin
-        if(A == B) begin
+        if(A == B) begin // EQ = 1
             eq = 1'b1;
             lt = 1'b0;
             gt = 1'b0;
             end
-        if(A < B) begin
+        if(A < B) begin // LT = 1
             eq = 1'b0;
             lt = 1'b1;
             gt = 1'b0;
             end
-        if(A > B) begin
+        if(A > B) begin // GT = 1
             eq = 1'b0;
             lt = 1'b0;
             gt = 1'b1;
