@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1541051698">
+  <File Type="BITSTR-BMM" Name="TFlop_4BCounter_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TFlop_4BCounter_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TFlop_4BCounter_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="TFlop_4BCounter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TFlop_4BCounter.tcl"/>
+  <File Type="OPT-TIMING" Name="TFlop_4BCounter_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TFlop_4BCounter_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="TFlop_4BCounter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TFlop_4BCounter_reports.tcl"/>
+  <File Type="OPT-DRC" Name="TFlop_4BCounter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TFlop_4BCounter.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TFlop_4BCounter_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TFlop_4BCounter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TFlop_4BCounter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TFlop_4BCounter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TFlop_4BCounter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TFlop_4BCounter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TFlop_4BCounter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TFlop_4BCounter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TFlop_4BCounter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TFlop_4BCounter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TFlop_4BCounter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="TFlop_4BCounter.bgn"/>
+  <File Type="PLACE-TIMING" Name="TFlop_4BCounter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TFlop_4BCounter_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="TFlop_4BCounter.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TFlop_4BCounter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TFlop_4BCounter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TFlop_4BCounter_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="TFlop_4BCounter.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="TFlop_4BCounter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TFlop_4BCounter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TFlop_4BCounter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TFlop_4BCounter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TFlop_4BCounter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TFlop_4BCounter_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TFlop_4BCounter.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="TFlop_4BCounter_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="TFlop_4BCounter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TFlop_4BCounter_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TFlop_4BCounter_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="TFlop_4BCounter.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TFlop_4BCounter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TFlop_4BCounter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TFlop_4BCounter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TFlop_4BCounter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TFlop_4BCounter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TFlop_4BCounter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TFlop_4BCounter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TFlop_4BCounter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TFlop_4BCounter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TFlop_4BCounter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TFlop_4BCounter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TFlop_4BCounter_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TFlop_4BCounter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TFlop_4BCounter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TFlop_4BCounter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TFlop_4BCounter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TFlop_4BCounter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TFlop_4BCounter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TFlop_4BCounter_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="TFlop_4BCounter.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TFlop_4BCounter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="TFlop_4BCounter.rbt"/>
+  <File Type="BITSTR-NKY" Name="TFlop_4BCounter.nky"/>
+  <File Type="BG-DRC" Name="TFlop_4BCounter.drc"/>
+  <File Type="RDI-RDI" Name="TFlop_4BCounter.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../sseg_dec.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TFlop_4BCounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TFlop_4BCounter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../exp12.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

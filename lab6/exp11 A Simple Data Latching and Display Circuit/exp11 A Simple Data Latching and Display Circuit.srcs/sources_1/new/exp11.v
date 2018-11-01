@@ -31,19 +31,18 @@ module sseg_dec( input [7:0] ALU_VAL,
 module exp11(
 input CLOCK,
 input [7:0] SWA,
-input btnC,
-
+input btnC, // Q
 output [3:0] an,
-output [6:0] seg
+output [7:0] seg
     );
 
 reg [7:0] dFlopInput;
 
-sseg_dec display( SWA, 0, 1, CLOCK, an, seg );
+sseg_dec display( dFlopInput, 0, 1, CLOCK, an, seg );
 
 always @ (posedge CLOCK)
 begin
-    if(btnC == 1'b1)
+    if(btnC == 1'b1) // if button is pressed, SWA is latched to Flip Flop
         dFlopInput =  SWA;
 end
 
