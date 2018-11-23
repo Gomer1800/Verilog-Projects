@@ -52,14 +52,16 @@ module fsm_sequence_detector(
     reg [2:0] Q , Qnext = A;
     
     // sseg_dec display ( CNT, 0 , 1, clk, an, seg ) ;
-    clk_div newClock ( clk, sclk ) ;
+    clk_div2 newClock ( clk, sclk ) ;
+    
     BC_DEC display ( clk, Z, an, seg ) ;
+    
     seq_dvr sequenceGenerator ( sclk, sw, led, X ) ;
     
     always @ ( posedge sclk )
     begin
         Q <= Qnext ;
-        
+        Z <= 1'b0;
         case (Q)
                         A: begin
                             Z <= 1'b0 ;
@@ -120,3 +122,24 @@ module fsm_sequence_detector(
        endcase
     end   
 endmodule
+
+module clk_div2 (  input clk,
+                  output sclk);
+
+  integer MAX_COUNT = 50000000; 
+  integer div_cnt =0;
+  reg tmp_clk=0; 
+
+   always @ (posedge clk)              
+   begin
+         if (div_cnt == MAX_COUNT) 
+         begin
+            tmp_clk = ~tmp_clk; 
+            div_cnt = 0;
+         end else
+            div_cnt = div_cnt + 1;  
+   end 
+   assign sclk = tmp_clk; 
+endmodule
+    
+// endmodule
