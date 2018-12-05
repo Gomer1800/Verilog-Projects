@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  4 23:54:15 2018
+# Process ID: 8280
+# Current directory: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab5_BCD_Comparator_displaymodule/exp9 BCD Comparator Display Module
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent384 C:\Users\luisg\Desktop\Fall 2018\CPE 133\Verilog-Projects\lab5_BCD_Comparator_displaymodule\exp9 BCD Comparator Display Module\exp9 BCD Comparator Display Module.xpr
+# Log file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab5_BCD_Comparator_displaymodule/exp9 BCD Comparator Display Module/vivado.log
+# Journal file: C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab5_BCD_Comparator_displaymodule/exp9 BCD Comparator Display Module\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab5_BCD_Comparator_displaymodule/exp9 BCD Comparator Display Module/exp9 BCD Comparator Display Module.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab5_BCD_Comparator_displaymodule/exp9 BCD Comparator Display Module'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab4_decoder_displaymodule/exp6/exp6.srcs/sources_1/new/exp6.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/luisg/Desktop/Fall 2018/CPE 133/Verilog-Projects/lab4_decoder/exp6/exp6.srcs/sources_1/new/exp6.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  4 23:55:14 2018...

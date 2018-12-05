@@ -18,13 +18,30 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
+/*
+module I_module(
+    input clk,
+    input error,
+    output integral
+    );
+    // Create register to store integral value
+    // Process
+    
+    parameter CE = 1'b1, delta_t = 1'b1;
+    wire product, sum;
+    reg previous_i;
+    
+    mult_gen_o multiplier(error, delta_t, product); // computer e(t)* delta_t = product
+    c_addsub_o adder(product, previous_i, clk, CE, sum); // computes product + previous_i = sum
+    dflops storeIntegral(clk, sum, previous_i); // assigns sum to previous_i dFlops
+endmodule
+*/
 
 module simTemplate(
      );
     
       //reg  a, b;
-      reg b,h,s;
+      reg clk,h,s;
       wire out;
    
     //myComponent DUT (
